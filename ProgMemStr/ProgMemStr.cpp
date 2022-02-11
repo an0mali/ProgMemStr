@@ -4,10 +4,9 @@
 ProgMemStr::ProgMemStr(){
   };
   
-void ProgMemStr::printCharMes(const char ptr[],int maxBuffer=256) {
+void ProgMemStr::printCharMes(const char ptr[],const int maxBuffer=256) {
           {
-            const int bsize = maxBuffer;
-            char tbuffer[bsize];
+            char tbuffer[maxBuffer];
             strcpy_P(tbuffer, ptr);
             String printMes = tbuffer;
             Serial.println(printMes);
