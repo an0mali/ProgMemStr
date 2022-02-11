@@ -23,7 +23,7 @@ class ProgMemStr {
   
     ProgMemStr();
 
-    void printCharMes(const char ptr[],int maxBuffer=256);
+    void printCharMes(const char ptr[],bool endLine=true, int maxBuffer=256);
 };
 
 #endif
