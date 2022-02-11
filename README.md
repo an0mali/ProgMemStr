@@ -17,7 +17,7 @@ This can be a seriously limiting issue on smaller devices (atmega328) such as th
 
   This can save a HUGE amount of dynamic memory in String-heavy applications.
   
-Is there a better way to call a function from an included header than ProgMemStr().[function], without doing something like
+Is there a better way to call a function from an included header than ProgMemStr().[function](), without doing something like
 
     ProgMemStr pms
     pms.printCharMes(exMes)
