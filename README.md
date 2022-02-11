@@ -1,6 +1,6 @@
 # ProgMemStr
 Simple Arduino library for retreiving and printing Char arrays that were stored using PROGMEM.
-PROGMEM store const into Flash memory instead of RAM, freeing up dynamic memory at a performance cost.
+PROGMEM stores const into Flash memory instead of RAM, freeing up dynamic memory at a performance cost.
 
 Strings in Arduino consume an insane amount of dynamic memory.
 This can be a seriously limiting issue on smaller devices (atmega328) such as the Uno or Nano.
